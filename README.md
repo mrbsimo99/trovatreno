@@ -1,22 +1,44 @@
 # trovatreno
-Clean train tracker for Italy. No ads, just info.
+Tracker treni per l'Italia. Veloce (si spera) e senza pubblicità.
 
 ## Features (WIP)
-- [ ] Search train by number
-- [ ] Show real-time status
-- [ ] Display stops and delays
-- [ ] Mobile-responsive design
+- [x] Backend API funzionante
+- [x] Ricerca treno per numero
+- [x] Dati real-time da ViaggiaTreno
+- [ ] Frontend React
+- [ ] Visualizzazione fermate e ritardi
+- [ ] Design mobile-responsive
+
+## Setup
+
+### Backend
+```bash
+cd server
+npm install
+node index.js
+```
+
+Server su `http://localhost:4040`
+
+### API Endpoint
+```
+GET /api/search/:trainNumber
+```
+
+**Esempio:**
+```
+http://localhost:4040/api/search/9754
+```
+
+**Risposta:** Informazioni complete con fermate, ritardi e binari.
 
 ## Tech Stack
-- React
-- TailwindCSS
-- ViaggiaTreno API (hoping they work as needed)
-- Vite
+- **Backend:** Node.js, Express, Axios
+- **Frontend:** React, TailwindCSS, Vite (in sviluppo)
+- **API:** ViaggiaTreno (Trenitalia)
 
 ## Development
-
-Status:  Work in progress
+Backend completato. Frontend in arrivo.
 
 ---
-
 Made with ❤️ by [Simone Morabito](https://simonemorabito.dev)
