@@ -58,8 +58,6 @@ http://localhost:4040/api/search/21908
 
 Contributi, issues e feature requests sono benvenuti!
 
-Sentiti libero di controllare la [issues page](https://github.com/tuousername/trovatreno/issues).
-
 ### Come contribuire
 
 1. Fai il fork del progetto
@@ -69,10 +67,6 @@ Sentiti libero di controllare la [issues page](https://github.com/tuousername/tr
 5. Apri una Pull Request
 
 Tutte le PR saranno revisionate prima del merge.
-
-## License
-
-Questo progetto è [MIT](LICENSE) licensed.
 
 ---
 Made with ❤️ by [Simone](https://simonemorabito.dev)
