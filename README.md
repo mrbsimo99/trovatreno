@@ -49,7 +49,30 @@ http://localhost:4040/api/search/21908
 - **API:** ViaggiaTreno (Trenitalia)
 
 ## Screenshots
-![TrovaTreno Homepage](screenshot.png)
+![TrovaTreno](public/Screenshot.PNG)
+![TrovaTreno](public/Screenshot%202.PNG)
+![TrovaTreno](public/Screenshot%203.PNG)
+![TrovaTreno](public/Screenshot%204.PNG)
+
+## Contributing
+
+Contributi, issues e feature requests sono benvenuti!
+
+Sentiti libero di controllare la [issues page](https://github.com/tuousername/trovatreno/issues).
+
+### Come contribuire
+
+1. Fai il fork del progetto
+2. Crea il tuo feature branch (`git checkout -b feature/AmazingFeature`)
+3. Committa le tue modifiche (`git commit -m 'Add some AmazingFeature'`)
+4. Pusha sul branch (`git push origin feature/AmazingFeature`)
+5. Apri una Pull Request
+
+Tutte le PR saranno revisionate prima del merge.
+
+## License
+
+Questo progetto è [MIT](LICENSE) licensed.
 
 ---
-Made with ❤️ by [Simone Morabito](https://simonemorabito.dev)
+Made with ❤️ by [Simone](https://simonemorabito.dev)
