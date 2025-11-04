@@ -1,13 +1,15 @@
-# trovatreno
-Tracker treni per l'Italia. Veloce (si spera) e senza pubblicità.
+# TrovaTreno 🚂
+Tracker treni per l'Italia. Veloce, semplice e senza pubblicità.
 
-## Features (WIP)
-- [x] Backend API funzionante
-- [x] Ricerca treno per numero
-- [x] Dati real-time da ViaggiaTreno
-- [ ] Frontend React
-- [ ] Visualizzazione fermate e ritardi
-- [ ] Design mobile-responsive
+## Features
+- ✅ Backend API funzionante
+- ✅ Ricerca treno per numero
+- ✅ Dati real-time da ViaggiaTreno
+- ✅ Frontend React completo
+- ✅ Visualizzazione fermate e ritardi
+- ✅ Design mobile-responsive
+- ✅ Evidenziazione fermata attuale
+- ✅ Aggiornamento dati in tempo reale
 
 ## Setup
 
@@ -20,6 +22,15 @@ node index.js
 
 Server su `http://localhost:4040`
 
+### Frontend
+```bash
+cd client
+npm install
+npm run dev
+```
+
+App su `http://localhost:5173`
+
 ### API Endpoint
 ```
 GET /api/search/:trainNumber
@@ -27,18 +38,18 @@ GET /api/search/:trainNumber
 
 **Esempio:**
 ```
-http://localhost:4040/api/search/9754
+http://localhost:4040/api/search/21908
 ```
 
-**Risposta:** Informazioni complete con fermate, ritardi e binari.
+**Risposta:** Informazioni complete con fermate, ritardi, binari e ultimo rilevamento.
 
 ## Tech Stack
 - **Backend:** Node.js, Express, Axios
-- **Frontend:** React, TailwindCSS, Vite (in sviluppo)
+- **Frontend:** React, TailwindCSS, Vite, Lucide React
 - **API:** ViaggiaTreno (Trenitalia)
 
-## Development
-Backend completato. Frontend in arrivo.
+## Screenshots
+![TrovaTreno Homepage](screenshot.png)
 
 ---
 Made with ❤️ by [Simone Morabito](https://simonemorabito.dev)
