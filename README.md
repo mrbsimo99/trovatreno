@@ -49,10 +49,7 @@ http://localhost:4040/api/search/21908
 - **API:** ViaggiaTreno (Trenitalia)
 
 ## Screenshots
-![TrovaTreno](public/Screenshot.PNG)
-![TrovaTreno](public/Screenshot%202.PNG)
-![TrovaTreno](public/Screenshot%203.PNG)
-![TrovaTreno](public/Screenshot%204.PNG)
+
 
 ## Contributing
 
