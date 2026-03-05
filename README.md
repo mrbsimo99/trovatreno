@@ -1,72 +1,12 @@
-# TrovaTreno 🚂
-Tracker treni per l'Italia. Veloce, semplice e senza pubblicità.
+# TrovaTreno
 
-## Features
-- ✅ Backend API funzionante
-- ✅ Ricerca treno per numero
-- ✅ Dati real-time da ViaggiaTreno
-- ✅ Frontend React completo
-- ✅ Visualizzazione fermate e ritardi
-- ✅ Design mobile-responsive
-- ✅ Evidenziazione fermata attuale
-- ✅ Aggiornamento dati in tempo reale
+Tracker minimale per seguire lo stato dei treni Trenitalia usando le API ViaggiaTreno. Cerchi il numero del treno e hai tutti i dati in tempo reale.
 
-## Setup
+**[trovatreno.net](https://www.trovatreno.net)**
 
-### Backend
-```bash
-cd server
-npm install
-node index.js
+L'idea mi è venuta in mente durante l'estate 2025 mentre frequentavo un corso di full-stack development. Un treno soppresso mentre ero a bordo (si ringrazia l'ottima rete ferroviaria qui al sud) per raggiungere una località di mare non risultava dall'app di Trenitalia, ma da siti di terze parti sì. Il problema è che questi siti erano inguardabili da mobile, pieni di pubblicità e oltremodo lenti. Volevo qualcosa di veloce e pulito, da usare esclusivamente da smartphone e che mi tornasse utile per i prossimi viaggi.
+
+## Stack
+
+React, TailwindCSS — deployato su Vercel con serverless function come proxy per le API ViaggiaTreno.
 ```
-
-Server su `http://localhost:4040`
-
-### Frontend
-```bash
-cd client
-npm install
-npm run dev
-```
-
-App su `http://localhost:5173`
-
-### API Endpoint
-```
-GET /api/search/:trainNumber
-```
-
-**Esempio:**
-```
-http://localhost:4040/api/search/21908
-```
-
-**Risposta:** Informazioni complete con fermate, ritardi, binari e ultimo rilevamento.
-
-## Tech Stack
-- **Backend:** Node.js, Express, Axios
-- **Frontend:** React, TailwindCSS, Vite, Lucide React
-- **API:** ViaggiaTreno (Trenitalia)
-
-## Screenshots
-![TrovaTreno](public/Screenshot.PNG)
-![TrovaTreno](public/Screenshot%202.PNG)
-![TrovaTreno](public/Screenshot%203.PNG)
-![TrovaTreno](public/Screenshot%204.PNG)
-
-## Contributing
-
-Contributi, issues e feature requests sono benvenuti!
-
-### Come contribuire
-
-1. Fai il fork del progetto
-2. Crea il tuo feature branch (`git checkout -b feature/AmazingFeature`)
-3. Committa le tue modifiche (`git commit -m 'Add some AmazingFeature'`)
-4. Pusha sul branch (`git push origin feature/AmazingFeature`)
-5. Apri una Pull Request
-
-Tutte le PR saranno revisionate prima del merge.
-
----
-Made with ❤️ by [Simone](https://simonemorabito.dev)
